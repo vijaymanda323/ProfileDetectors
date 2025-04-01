@@ -1,0 +1,78 @@
+body {
+    background: url("https://i0.wp.com/www.thestartupfounder.com/wp-content/uploads/2023/05/SMPJAPI2.jpg?resize=612%2C421&ssl=1") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .profile-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .input-box {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .detect-button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .detect-button:hover {
+    background: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .profile-result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    text-align: left;
+  }
+  
+  .profile-result h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .profile-result p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .real-status {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .fake-status {
+    color: red;
+    font-weight: bold;
+  }
+  
