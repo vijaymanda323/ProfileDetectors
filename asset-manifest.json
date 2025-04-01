@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ProfileDetectors/static/css/main.320cac60.css",
+    "main.js": "/ProfileDetectors/static/js/main.a5480a6b.js",
+    "index.html": "/ProfileDetectors/index.html",
+    "main.320cac60.css.map": "/ProfileDetectors/static/css/main.320cac60.css.map",
+    "main.a5480a6b.js.map": "/ProfileDetectors/static/js/main.a5480a6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.320cac60.css",
+    "static/js/main.a5480a6b.js"
+  ]
+}
