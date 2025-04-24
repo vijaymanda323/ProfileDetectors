@@ -19,7 +19,7 @@ const ProfileDetector = () => {
     setResult(null);
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/detect", { username });
+      const response = await axios.post("https://backend-w5vi.onrender.com/detect", { username });
 
       setResult(response.data);
     } catch (err) {
