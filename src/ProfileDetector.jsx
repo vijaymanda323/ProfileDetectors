@@ -19,7 +19,7 @@ const ProfileDetector = () => {
     setResult(null);
 
     try {
-      const response = await axios.post("http://0.0.0.0:8000/detect", { username });
+      const response = await axios.post("https://90b3-103-208-231-177.ngrok-free.app/detect", { username });
 
       setResult(response.data);
     } catch (err) {
