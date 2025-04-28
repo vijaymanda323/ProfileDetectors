@@ -19,7 +19,7 @@ const ProfileDetector = () => {
     setResult(null);
 
     try {
-      const response = await axios.post("https://backend-w5vi.onrender.com/detect", { username });
+      const response = await axios.post(" https://3fbb-36-255-18-114.ngrok-free.app/detect", { username });
 
       setResult(response.data);
     } catch (err) {
